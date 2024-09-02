@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 50%;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px; 
+}
+
+.containerfirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-left: 2px;
+}
+
+.topicTitle {
+    color: black;
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.topicDescription {
+    color: #2c2c2c;
+    font-size: 16px; 
+}
+
+.containersecond {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; 
+}
+
+.iconone, .icontwo {
+    display: flex; 
+    align-items: center; 
+    font-size: 26px; 
+}
